@@ -3,7 +3,7 @@ clear; clc;
 % seed = 100;
 % rng(seed)
 
-disp('--------------<Secrecy rate vs Power>--------------')
+disp('--------------<Secrecy rate vs SNR>--------------')
 
 Power_dB = -5:2:15;
 Power = 10.^(Power_dB/10);
